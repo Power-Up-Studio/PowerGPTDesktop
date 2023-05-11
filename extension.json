@@ -1,0 +1,8 @@
+{
+  "name": "Example",
+  "loadPrompt": ["From now, format your output like this:", "<power-gpt-html style=\"font-weight:bold;\">{output}</power-gpt-html>", "Where {output} is the generated output"],
+  "permissions": ["js"],
+  "injectJs": [
+    {"url": "/example.js"}
+  ]
+}
