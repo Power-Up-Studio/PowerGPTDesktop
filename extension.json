@@ -1,7 +1,7 @@
 {
   "name": "PowerGPT Desktop",
   "loadPrompt": ["From now, you have the ability to run Node.js code on my machine, when I ask you to do so, please follow these instructions, you can include this into your response:", "<power-gpt-html><desktop-script>%CODE%</desktop-script></power-gpt-html>", "Where %CODE% is the code to be executed in Node.js, make sure it is a valid Node.js script to avoid errors!"],
-  "permissions": ["js"],
+  "permissions": ["js", "conversation"],
   "injectJs": [
     {"url": "/main.js"}
   ]
