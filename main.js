@@ -1,1 +1,1 @@
-PGPTConversation.onMessage((msg) => console.log(msg))
+PGPTConversation.onMessage((msg) => console.log(msg), window.parent.document)
