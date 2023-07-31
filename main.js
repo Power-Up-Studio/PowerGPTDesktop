@@ -2,7 +2,7 @@ PGPTConversation.onMessage((msg) => {
   if (msg.isGPT) {
     msg.contentChanged(null, () => {
       setTimeout(() => {
-        console.log(msg)
+        console.log(msg.container.innerHTML)
       }, 1000)
     })
   }
